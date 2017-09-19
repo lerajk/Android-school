@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "C:\\Classes\\COMP304\\class_examples_androidstudio\\Fragments\\app\\build\\intermediates\\res\\merged\\debug\\layout\\main.xml",
+        "source": "C:\\Classes\\COMP304\\class_examples_androidstudio\\Fragments\\app\\src\\main\\res\\layout\\main.xml"
+    },
+    {
+        "merged": "C:\\Classes\\COMP304\\class_examples_androidstudio\\Fragments\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment2.xml",
+        "source": "C:\\Classes\\COMP304\\class_examples_androidstudio\\Fragments\\app\\src\\main\\res\\layout\\fragment2.xml"
+    },
+    {
+        "merged": "C:\\Classes\\COMP304\\class_examples_androidstudio\\Fragments\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment1.xml",
+        "source": "C:\\Classes\\COMP304\\class_examples_androidstudio\\Fragments\\app\\src\\main\\res\\layout\\fragment1.xml"
+    }
+]
