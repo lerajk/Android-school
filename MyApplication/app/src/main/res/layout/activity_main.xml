@@ -26,36 +26,38 @@
         tools:layout_editor_absoluteX="16dp"
         tools:layout_editor_absoluteY="399dp" />
 
-    <RadioButton
-        android:id="@+id/radioButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="American"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="90dp" />
+    <RadioGroup
+        android:id="@+id/radioShifts"
+        android:layout_width="129dp"
+        android:layout_height="96dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="110dp"
+        tools:layout_editor_absoluteY="95dp">
 
-    <RadioButton
-        android:id="@+id/radioButton2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Italian"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="167dp" />
+        <RadioButton
+            android:id="@+id/radioButton1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:onClick="onRadioButtonClicked"
+            android:text="American" />
 
-    <RadioButton
-        android:id="@+id/radioButton3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Chinese"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="251dp" />
+        <RadioButton
+            android:id="@+id/radioButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onRadioButtonClicked"
+            android:text="Indian" />
 
-    <RadioButton
-        android:id="@+id/radioButton4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Indian"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="325dp" />
+        <RadioButton
+            android:id="@+id/radioButton3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onRadioButtonClicked"
+            android:text="Chinese" />
+
+
+    </RadioGroup>
+
 
 </android.support.constraint.ConstraintLayout>
